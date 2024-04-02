@@ -1,0 +1,28 @@
+.searchBtn{
+    cursor: pointer;
+    width: 160px;
+    height: 44px;
+    border: none;
+    border-radius: 25px;
+    background-color: #095f58;
+    color: #ffffff;
+    font-size: var(--btnSize);
+    font-weight: var(--btnWidth);
+    line-height: var(--btnLineHeight);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px auto;
+}
+.searchBtn:hover{
+    background-color: #128581;
+
+}
+
+
+.autocomplete {
+    width: 200px;
+    margin-right: 10px;
+  }

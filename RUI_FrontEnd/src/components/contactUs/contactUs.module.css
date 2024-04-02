@@ -1,0 +1,57 @@
+/* ContactUs.module.css */
+.contactContainer {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .contactHeader {
+    text-align: center;
+    color: #333;
+  }
+  
+  .contactInfo {
+    margin-bottom: 20px;
+  }
+  
+  .infoParagraph {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formField {
+    margin-bottom: 20px;
+  }
+  
+  .formInput,
+  .formTextarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .formButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formButton:hover {
+    background-color: #0056b3;
+  }
+  

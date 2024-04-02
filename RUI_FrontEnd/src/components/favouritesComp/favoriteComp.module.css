@@ -1,0 +1,42 @@
+/* About.module.css */
+
+.productsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+    row-gap: 5rem;
+    column-gap: 3rem;
+  }
+  
+  .stickyButtonContainer {
+    position: sticky;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .stickyButton {
+    cursor: pointer;
+    width: 160px;
+    height: 44px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0a59a9;
+    color: #ffffff;
+    font-size: var(--btnSize);
+    font-weight: var(--btnWidth);
+    line-height: var(--btnLineHeight);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px auto;
+  }
+  
+  .stickyButton:hover {
+    background-color: #0056b3;
+  }
+  

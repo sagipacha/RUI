@@ -1,0 +1,16 @@
+.whatsAppIconContainer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .whatsAppIconContainer a {
+    color: green;
+  }
+
+  .hostagesContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  

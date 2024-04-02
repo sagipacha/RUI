@@ -1,0 +1,95 @@
+.logoImg{
+    width: 20rem;
+    height: 20rem;
+}
+.productsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+    row-gap: 5rem;
+    column-gap: 3rem;
+}
+
+.stickyButtonContainer {
+    position: sticky;
+    bottom: 20px; 
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+
+  }
+  
+  .stickyButton {
+    cursor: pointer;
+    width: 160px;
+    height: 44px;
+    border: none;
+    border-radius: 25px;
+    background-color: #095f58;
+    color: #ffffff;
+    font-size: var(--btnSize);
+    font-weight: var(--btnWidth);
+    line-height: var(--btnLineHeight);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px auto;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .stickyButton:hover {
+    background-color: #128581;
+  }
+  
+  .banner{
+    width: 100%;
+    height: 20rem;
+    background: round;
+    background-image: url('../../img/text.png' );
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .text{
+    padding-right: 17rem;
+
+
+  }
+
+  .box3{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 40rem;
+
+  }
+
+  .box{
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 1rem;
+    width: 6rem;
+    height: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+
+
+
+  }
+
